@@ -1,0 +1,757 @@
+Coverage Report by file with details
+
+File: ../rtl/IP_TIMER.v
+Toggle Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Toggle Bins                     98        92         6      93.8
+
+================================Toggle Details================================
+
+Toggle Coverage for File ../rtl/IP_TIMER.v --
+
+       Line                                   Node      1H->0L      0L->1H  "Coverage"
+--------------------------------------------------------------------------------------
+          5                                      D         110         110      100.00 
+          5                                   D[7]          24          36      100.00 
+          5                                   D[6]          26          36      100.00 
+          5                                   D[5]          34          36      100.00 
+          5                                   D[4]          34          36      100.00 
+          5                                   D[3]          34          36      100.00 
+          5                                   D[2]          34          36      100.00 
+          5                                   D[1]          34          36      100.00 
+          5                                   D[0]          34          36      100.00 
+          7                                    in3          22          22      100.00 
+          7                                    in2          22          22      100.00 
+          7                                    in1          22          22      100.00 
+          7                                    in0          22          22      100.00 
+          8                                     q3          22          22      100.00 
+          8                                     q2          22          22      100.00 
+          8                                     q1          22          22      100.00 
+          8                                     q0          22          22      100.00 
+          2                                   PCLK          22          22      100.00 
+          3                                PRESETn           4          22      100.00 
+          4                                   PSEL          22          22      100.00 
+          5                                PENABLE          22          22      100.00 
+          6                                 PWRITE          22          22      100.00 
+          7                               PADDR[7]           2           2      100.00 
+          7                               PADDR[6]           2           2      100.00 
+          7                               PADDR[5]           2           2      100.00 
+          7                               PADDR[4]           2           2      100.00 
+          7                               PADDR[3]           2           2      100.00 
+          7                               PADDR[2]           2           2      100.00 
+          7                               PADDR[1]           8          20      100.00 
+          7                               PADDR[0]          19          20      100.00 
+          8                              PWDATA[7]          21          22      100.00 
+          8                              PWDATA[6]           7           7      100.00 
+          8                              PWDATA[5]          19          20      100.00 
+          8                              PWDATA[4]          13          22      100.00 
+          8                              PWDATA[3]           7           7      100.00 
+          8                              PWDATA[2]          19          19      100.00 
+          8                              PWDATA[1]           7          11      100.00 
+          8                              PWDATA[0]           9          13      100.00 
+         13                                 TDR[7]           2           8      100.00 
+         13                                 TDR[6]           2           3      100.00 
+         13                                 TDR[5]           6          15      100.00 
+         13                                 TDR[4]           2           3      100.00 
+         13                                 TDR[3]           2           3      100.00 
+         13                                 TDR[2]           6          15      100.00 
+         13                                 TDR[1]           2           3      100.00 
+         13                                 TDR[0]           2           5      100.00 
+         14                                 TCR[7]          17          18      100.00 
+         14                                 TCR[6]           0           0        0.00 
+         14                                 TCR[5]           4          11      100.00 
+         14                                 TCR[4]           7          16      100.00 
+         14                                 TCR[3]           0           0        0.00 
+         14                                 TCR[2]           0           0        0.00 
+         14                                 TCR[1]           1           5      100.00 
+         14                                 TCR[0]           1           6      100.00 
+         15                                 CNT[7]          12          18      100.00 
+         15                                 CNT[6]          13          18      100.00 
+         15                                 CNT[5]          17          18      100.00 
+         15                                 CNT[4]          17          18      100.00 
+         15                                 CNT[3]          17          18      100.00 
+         15                                 CNT[2]          17          18      100.00 
+         15                                 CNT[1]          17          18      100.00 
+         15                                 CNT[0]          17          18      100.00 
+         16                              S_TMR_UDF          10          10      100.00 
+         17                              S_TMR_OVF           8           8      100.00 
+         18                                clk_div          22          22      100.00 
+         19                             load_pulse          18          18      100.00 
+
+Total Node Count     =         49 
+Toggled Node Count   =         46 
+Untoggled Node Count =          3 
+
+Toggle Coverage      =       93.8% (92 of 98 bins)
+
+File: ../rtl/Prd.v
+Toggle Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Toggle Bins                     24        23         1      95.8
+
+================================Toggle Details================================
+
+Toggle Coverage for File ../rtl/Prd.v --
+
+       Line                                   Node      1H->0L      0L->1H  "Coverage"
+--------------------------------------------------------------------------------------
+          3                          select_reg[2]           6          18      100.00 
+          3                          select_reg[1]          18          19      100.00 
+          3                          select_reg[0]          21           6      100.00 
+         11                                 TSR[1]           2          10      100.00 
+         11                                 TSR[0]           0           8       50.00 
+         12                                 out[7]           2           2      100.00 
+         12                                 out[6]           1           1      100.00 
+         12                                 out[5]           2           2      100.00 
+         12                                 out[4]           2           2      100.00 
+         12                                 out[3]           1           1      100.00 
+         12                                 out[2]           1           1      100.00 
+         12                                 out[1]           2          10      100.00 
+         12                                 out[0]           3          10      100.00 
+         15                                 ready1          22          22      100.00 
+         15                                     en          22          22      100.00 
+
+Total Node Count     =         12 
+Toggled Node Count   =         11 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =       95.8% (23 of 24 bins)
+
+File: ../rtl/RW_Controller.v
+Condition Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Condition Terms              8         6         2      75.0
+
+================================Condition Details================================
+
+Condition Coverage for file ../rtl/RW_Controller.v --
+
+----------------Focused Condition View-------------------
+Line       42 Item    1 		end else if (PWRITE && PENABLE && pready_internal && sel_reg[2]) begin
+Condition totals: 3 of 4 input terms covered = 75.0%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  pready_internal         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Matching input patterns       
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:         22  PWRITE_0              { 0--- }                      
+  Row   2:          1  PWRITE_1              { 1111 }                      
+  Row   3:         22  PENABLE_0             { 10-- }                      
+  Row   4:          1  PENABLE_1             { 1111 }                      
+  Row   5:    ***0***  pready_internal_0     { 110- }                      
+  Row   6:          1  pready_internal_1     { 1111 }                      
+  Row   7:         21  sel_reg[2]_0          { 1110 }                      
+  Row   8:          1  sel_reg[2]_1          { 1111 }                      
+
+NOTE:
+  * Order of matching input pattern values: {PWRITE,PENABLE,pready_internal,sel_reg[2]}
+
+----------------Focused Condition View-------------------
+Line       50 Item    1 		end else if (PWRITE && PENABLE && pready_internal && sel_reg[2]) begin
+Condition totals: 3 of 4 input terms covered = 75.0%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  pready_internal         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Matching input patterns       
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:         22  PWRITE_0              { 0--- }                      
+  Row   2:          1  PWRITE_1              { 1111 }                      
+  Row   3:         22  PENABLE_0             { 10-- }                      
+  Row   4:          1  PENABLE_1             { 1111 }                      
+  Row   5:    ***0***  pready_internal_0     { 110- }                      
+  Row   6:          1  pready_internal_1     { 1111 }                      
+  Row   7:         21  sel_reg[2]_0          { 1110 }                      
+  Row   8:          1  sel_reg[2]_1          { 1111 }                      
+
+NOTE:
+  * Order of matching input pattern values: {PWRITE,PENABLE,pready_internal,sel_reg[2]}
+
+
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms             7         6         1      85.7
+
+================================Expression Details================================
+
+Expression Coverage for file ../rtl/RW_Controller.v --
+
+----------------Focused Expression View-----------------
+Line       34 Item    1 	assign  load_pulse = PWRITE && PENABLE && pready_internal && sel_reg[1] && PWDATA[7];
+Expression totals: 4 of 5 input terms covered = 80.0%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  pready_internal         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Matching input patterns       
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:         22  PWRITE_0              { 0---- }                     
+  Row   2:         18  PWRITE_1              { 11111 }                     
+  Row   3:         22  PENABLE_0             { 10--- }                     
+  Row   4:         18  PENABLE_1             { 11111 }                     
+  Row   5:    ***0***  pready_internal_0     { 110-- }                     
+  Row   6:         18  pready_internal_1     { 11111 }                     
+  Row   7:         21  sel_reg[1]_0          { 1110- }                     
+  Row   8:         18  sel_reg[1]_1          { 11111 }                     
+  Row   9:         18  PWDATA[7]_0           { 11110 }                     
+ Row   10:         18  PWDATA[7]_1           { 11111 }                     
+
+NOTE:
+  * Order of matching input pattern values: {PWRITE,PENABLE,pready_internal,sel_reg[1],PWDATA[7]}
+
+
+
+Toggle Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Toggle Bins                     50        29        21      58.0
+
+================================Toggle Details================================
+
+Toggle Coverage for File ../rtl/RW_Controller.v --
+
+       Line                                   Node      1H->0L      0L->1H  "Coverage"
+--------------------------------------------------------------------------------------
+          6                                 pready          22          22      100.00 
+          5                                pslverr           1           2      100.00 
+         19                                 TSR[1]           2          10      100.00 
+         19                                 TSR[0]           0           8       50.00 
+         20                             TSR_buf[7]           0           0        0.00 
+         20                             TSR_buf[6]           0           0        0.00 
+         20                             TSR_buf[5]           0           0        0.00 
+         20                             TSR_buf[4]           0           0        0.00 
+         20                             TSR_buf[3]           0           0        0.00 
+         20                             TSR_buf[2]           0           0        0.00 
+         20                             TSR_buf[1]           0           0        0.00 
+         20                             TSR_buf[0]           0           0        0.00 
+         21                             sel_reg[2]           6          18      100.00 
+         21                             sel_reg[1]          18          19      100.00 
+         21                             sel_reg[0]          21           6      100.00 
+         22                                    err           1           2      100.00 
+         23                            RBPWDATA[7]          19          19      100.00 
+         23                            RBPWDATA[6]           3           3      100.00 
+         23                            RBPWDATA[5]          17          17      100.00 
+         23                            RBPWDATA[4]          19          19      100.00 
+         23                            RBPWDATA[3]           3           3      100.00 
+         23                            RBPWDATA[2]          15          15      100.00 
+         23                            RBPWDATA[1]           8           8      100.00 
+         23                            RBPWDATA[0]          11          11      100.00 
+         24                                TSR_UDF           0           0        0.00 
+         24                                TSR_OVF           0           0        0.00 
+         25                        pready_internal          22          22      100.00 
+
+Total Node Count     =         25 
+Toggled Node Count   =         14 
+Untoggled Node Count =         11 
+
+Toggle Coverage      =       58.0% (29 of 50 bins)
+
+File: ../rtl/Reg.v
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms             5         2         3      40.0
+
+================================Expression Details================================
+
+Expression Coverage for file ../rtl/Reg.v --
+
+----------------Focused Expression View-----------------
+Line       16 Item    1 	assign sel_mux = psel & pwrite & penable & pready & sel_reg;
+Expression totals: 2 of 5 input terms covered = 40.0%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        psel         N  '_0' not hit             Hit '_0'
+     penable         N  '_0' not hit             Hit '_0'
+      pready         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Matching input patterns       
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  psel_0                { 01111 }                     
+  Row   2:         38  psel_1                { 11111 }                     
+  Row   3:         29  pwrite_0              { 10111 }                     
+  Row   4:         38  pwrite_1              { 11111 }                     
+  Row   5:    ***0***  penable_0             { 11011 }                     
+  Row   6:         38  penable_1             { 11111 }                     
+  Row   7:    ***0***  pready_0              { 11101 }                     
+  Row   8:         38  pready_1              { 11111 }                     
+  Row   9:         63  sel_reg_0             { 11110 }                     
+ Row   10:         38  sel_reg_1             { 11111 }                     
+
+NOTE:
+  * Order of matching input pattern values: {psel,pwrite,penable,pready,sel_reg}
+
+
+
+File: ../rtl/SFR.v
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms            10         9         1      90.0
+
+================================Expression Details================================
+
+Expression Coverage for file ../rtl/SFR.v --
+
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 	assign  S_TMR_UDF = inst0 & DOWN & udf_eq_00 & udf_eq_ff;
+Expression totals: 3 of 4 input terms covered = 75.0%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+       inst0         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Matching input patterns       
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  inst0_0               { 0111 }                      
+  Row   2:         10  inst0_1               { 1111 }                      
+  Row   3:          1  DOWN_0                { 1011 }                      
+  Row   4:         10  DOWN_1                { 1111 }                      
+  Row   5:         10  udf_eq_00_0           { 1101 }                      
+  Row   6:         10  udf_eq_00_1           { 1111 }                      
+  Row   7:         10  udf_eq_ff_0           { 1110 }                      
+  Row   8:         10  udf_eq_ff_1           { 1111 }                      
+
+NOTE:
+  * Order of matching input pattern values: {inst0,DOWN,udf_eq_00,udf_eq_ff}
+
+
+
+
+File: ../test_case/testcase.v
+Statement Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           62        58         4      93.5
+
+================================Statement Details================================
+
+Statement Coverage for file ../test_case/testcase.v --
+
+    20              1       apb_write(ADDR_TDR, tdr_val);
+    21              1     
+    33              1       #3000; // Doi 3000ns
+    34              1     
+Branch Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                         4         2         2      50.0
+
+================================Branch Details================================
+
+Branch Coverage for file ../test_case/testcase.v --
+
+------------------------------------IF Branch------------------------------------
+    19                                         1     Count coming in to IF
+    19              1                    ***0***       $display("[%0t] TEST: Writing 0x%0h to TDR", $time, tdr_val);
+    22              1                          1       // 3. THAO TAC QUAN TRONG:
+Branch totals: 1 hit of 2 branches = 50.0%
+
+------------------------------------IF Branch------------------------------------
+    32                                        20     Count coming in to IF
+    32              1                    ***0***       // Thoi gian du kien = 128 * 20ns = 2560ns
+    35              1                         20       // 5. Doc TSR
+Branch totals: 1 hit of 2 branches = 50.0%
+
+
+Toggle Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Toggle Bins                    550        65       485      11.8
+
+================================Toggle Details================================
+
+Toggle Coverage for File ../test_case/testcase.v --
+
+       Line                                   Node      1H->0L      0L->1H  "Coverage"
+--------------------------------------------------------------------------------------
+         10                                 out[7]          19          26      100.00 
+         10                                 out[6]           2           3      100.00 
+         10                                 out[5]          10          26      100.00 
+         10                                 out[4]           9          19      100.00 
+         10                                 out[3]           2           3      100.00 
+         10                                 out[2]           6          15      100.00 
+         10                                 out[1]           3           8      100.00 
+         10                                 out[0]           3          11      100.00 
+         13                                sel_mux          38          38      100.00 
+         14                                 bus[7]          19          26      100.00 
+         14                                 bus[6]           2           3      100.00 
+         14                                 bus[5]          10          26      100.00 
+         14                                 bus[4]           9          19      100.00 
+         14                                 bus[3]           2           3      100.00 
+         14                                 bus[2]           6          15      100.00 
+         14                                 bus[1]           3           8      100.00 
+         14                                 bus[0]           3          11      100.00 
+         11                                  inst0           7          16      100.00 
+         12                             lastCNT[7]          12          18      100.00 
+         12                             lastCNT[6]          13          18      100.00 
+         12                             lastCNT[5]          17          18      100.00 
+         12                             lastCNT[4]          17          18      100.00 
+         12                             lastCNT[3]          17          18      100.00 
+         12                             lastCNT[2]          17          18      100.00 
+         12                             lastCNT[1]          17          18      100.00 
+         12                             lastCNT[0]          17          18      100.00 
+         13                              udf_eq_00          18          17      100.00 
+         14                              udf_eq_ff          17          18      100.00 
+         15                              ovf_eq_00          17          18      100.00 
+         16                              ovf_eq_ff          18          17      100.00 
+          8                                 not_in          22          22      100.00 
+         12                          next_count[7]          12          18      100.00 
+         12                          next_count[6]          13          18      100.00 
+         12                          next_count[5]          17          18      100.00 
+         12                          next_count[4]          17          18      100.00 
+         12                          next_count[3]          17          18      100.00 
+         12                          next_count[2]          17          18      100.00 
+         12                          next_count[1]          17          18      100.00 
+         12                          next_count[0]          17          18      100.00 
+         12                       initial_value[7]          12          18      100.00 
+         12                       initial_value[6]          13          18      100.00 
+         12                       initial_value[5]          17          18      100.00 
+         12                       initial_value[4]          17          18      100.00 
+         12                       initial_value[3]          17          18      100.00 
+         12                       initial_value[2]          17          18      100.00 
+         12                       initial_value[1]          17          18      100.00 
+         12                       initial_value[0]          17          18      100.00 
+         13                                 sum[7]          12          18      100.00 
+         13                                 sum[6]          13          18      100.00 
+         13                                 sum[5]          17          18      100.00 
+         13                                 sum[4]          17          18      100.00 
+         13                                 sum[3]          17          18      100.00 
+         13                                 sum[2]          17          18      100.00 
+         13                                 sum[1]          17          18      100.00 
+         13                                 sum[0]          17          18      100.00 
+         14                                 MOD[7]           4          10      100.00 
+         14                                 MOD[6]           4          10      100.00 
+         14                                 MOD[5]           4          10      100.00 
+         14                                 MOD[4]           4          10      100.00 
+         14                                 MOD[3]           4          10      100.00 
+         14                                 MOD[2]           4          10      100.00 
+         14                                 MOD[1]           4          10      100.00 
+         14                                 MOD[0]           7          16      100.00 
+         15                                  enCLK          22          22      100.00 
+          6                                   PCLK          22          22      100.00 
+          7                                PRESETn           4          22      100.00 
+         10                                   PSEL          22          22      100.00 
+         11                                PENABLE          22          22      100.00 
+         12                                 PWRITE          22          22      100.00 
+         13                               PADDR[7]           2           2      100.00 
+         13                               PADDR[6]           2           2      100.00 
+         13                               PADDR[5]           2           2      100.00 
+         13                               PADDR[4]           2           2      100.00 
+         13                               PADDR[3]           2           2      100.00 
+         13                               PADDR[2]           2           2      100.00 
+         13                               PADDR[1]           8          20      100.00 
+         13                               PADDR[0]          19          20      100.00 
+         14                              PWDATA[7]          21          22      100.00 
+         14                              PWDATA[6]           7           7      100.00 
+         14                              PWDATA[5]          19          20      100.00 
+         14                              PWDATA[4]          13          22      100.00 
+         14                              PWDATA[3]           7           7      100.00 
+         14                              PWDATA[2]          19          19      100.00 
+         14                              PWDATA[1]           7          11      100.00 
+         14                              PWDATA[0]           9          13      100.00 
+         15                              PRDATA[7]           2           2      100.00 
+         15                              PRDATA[6]           1           1      100.00 
+         15                              PRDATA[5]           2           2      100.00 
+         15                              PRDATA[4]           2           2      100.00 
+         15                              PRDATA[3]           1           1      100.00 
+         15                              PRDATA[2]           1           1      100.00 
+         15                              PRDATA[1]           2          10      100.00 
+         15                              PRDATA[0]           3          10      100.00 
+         16                                 PREADY          22          22      100.00 
+         17                                PSLVERR           2           2      100.00 
+          1                                   i[9]           0           0        0.00 
+          1                                   i[8]           0           0        0.00 
+          1                                   i[7]           0           0        0.00 
+          1                                   i[6]           0           0        0.00 
+          1                                   i[5]           0           0        0.00 
+          1                                   i[4]           0           5       50.00 
+          1                                   i[3]           5           5      100.00 
+          1                                  i[31]           0           0        0.00 
+          1                                  i[30]           0           0        0.00 
+          1                                   i[2]           5           5      100.00 
+          1                                  i[29]           0           0        0.00 
+          1                                  i[28]           0           0        0.00 
+          1                                  i[27]           0           0        0.00 
+          1                                  i[26]           0           0        0.00 
+          1                                  i[25]           0           0        0.00 
+          1                                  i[24]           0           0        0.00 
+          1                                  i[23]           0           0        0.00 
+          1                                  i[22]           0           0        0.00 
+          1                                  i[21]           0           0        0.00 
+          1                                  i[20]           0           0        0.00 
+          1                                   i[1]           5           5      100.00 
+          1                                  i[19]           0           0        0.00 
+          1                                  i[18]           0           0        0.00 
+          1                                  i[17]           0           0        0.00 
+          1                                  i[16]           0           0        0.00 
+          1                                  i[15]           0           0        0.00 
+          1                                  i[14]           0           0        0.00 
+          1                                  i[13]           0           0        0.00 
+          1                                  i[12]           0           0        0.00 
+          1                                  i[11]           0           0        0.00 
+          1                                  i[10]           0           0        0.00 
+          1                                   i[0]           5           5      100.00 
+          2                                  wr[7]           5           5      100.00 
+          2                                  wr[6]           5           5      100.00 
+          2                                  wr[5]           5           5      100.00 
+          2                                  wr[4]           5           5      100.00 
+          2                                  wr[3]           5           5      100.00 
+          2                                  wr[2]           5           5      100.00 
+          2                                  wr[1]           5           5      100.00 
+          2                                  wr[0]           5           5      100.00 
+          2                   tdr_val_pre_reset[7]           0           0        0.00 
+          2                   tdr_val_pre_reset[6]           0           0        0.00 
+          2                   tdr_val_pre_reset[5]           0           0        0.00 
+          2                   tdr_val_pre_reset[4]           0           0        0.00 
+          2                   tdr_val_pre_reset[3]           0           0        0.00 
+          2                   tdr_val_pre_reset[2]           0           0        0.00 
+          2                   tdr_val_pre_reset[1]           0           0        0.00 
+          2                   tdr_val_pre_reset[0]           0           0        0.00 
+          2                  tdr_val_post_reset[7]           0           0        0.00 
+          2                  tdr_val_post_reset[6]           0           0        0.00 
+          2                  tdr_val_post_reset[5]           0           0        0.00 
+          2                  tdr_val_post_reset[4]           0           0        0.00 
+          2                  tdr_val_post_reset[3]           0           0        0.00 
+          2                  tdr_val_post_reset[2]           0           0        0.00 
+          2                  tdr_val_post_reset[1]           0           0        0.00 
+          2                  tdr_val_post_reset[0]           0           0        0.00 
+          2                             tdr_val[7]           0           0        0.00 
+          2                             tdr_val[6]           0           0        0.00 
+          2                             tdr_val[5]           0           0        0.00 
+          2                             tdr_val[4]           0           0        0.00 
+          2                             tdr_val[3]           0           0        0.00 
+          2                             tdr_val[2]           0           0        0.00 
+          2                             tdr_val[1]           0           0        0.00 
+          2                             tdr_val[0]           0           0        0.00 
+          2                             rd_data[7]           0           0        0.00 
+          2                             rd_data[6]           0           0        0.00 
+          2                             rd_data[5]           0           0        0.00 
+          2                             rd_data[4]           0           0        0.00 
+          2                             rd_data[3]           0           0        0.00 
+          2                             rd_data[2]           0           0        0.00 
+          2                             rd_data[1]           0           3       50.00 
+          2                             rd_data[0]           0           1       50.00 
+          2                                  rd[7]           2           2      100.00 
+          2                                  rd[6]           1           1      100.00 
+          2                                  rd[5]           2           2      100.00 
+          2                                  rd[4]           2           2      100.00 
+          2                                  rd[3]           1           1      100.00 
+          2                                  rd[2]           1           1      100.00 
+          2                                  rd[1]           2           2      100.00 
+          2                                  rd[0]           3           3      100.00 
+          3                       reset_check_pass           0           0        0.00 
+          3                            rd_tsr_2[7]           0           0        0.00 
+          3                            rd_tsr_2[6]           0           0        0.00 
+          3                            rd_tsr_2[5]           0           0        0.00 
+          3                            rd_tsr_2[4]           0           0        0.00 
+          3                            rd_tsr_2[3]           0           0        0.00 
+          3                            rd_tsr_2[2]           0           0        0.00 
+          3                            rd_tsr_2[1]           0           0        0.00 
+          3                            rd_tsr_2[0]           0           0        0.00 
+          3                            rd_tsr_1[7]           0           0        0.00 
+          3                            rd_tsr_1[6]           0           0        0.00 
+          3                            rd_tsr_1[5]           0           0        0.00 
+          3                            rd_tsr_1[4]           0           0        0.00 
+          3                            rd_tsr_1[3]           0           0        0.00 
+          3                            rd_tsr_1[2]           0           0        0.00 
+          3                            rd_tsr_1[1]           0           0        0.00 
+          3                            rd_tsr_1[0]           0           0        0.00 
+          3                              rd_tsr[7]           0           0        0.00 
+          3                              rd_tsr[6]           0           0        0.00 
+          3                              rd_tsr[5]           0           0        0.00 
+          3                              rd_tsr[4]           0           0        0.00 
+          3                              rd_tsr[3]           0           0        0.00 
+          3                              rd_tsr[2]           0           0        0.00 
+          3                              rd_tsr[1]           0           1       50.00 
+          3                              rd_tsr[0]           0           1       50.00 
+          4                         time_to_udf[9]           0           0        0.00 
+          4                         time_to_udf[8]           0           0        0.00 
+          4                         time_to_udf[7]           0           0        0.00 
+          4                         time_to_udf[6]           0           0        0.00 
+          4                         time_to_udf[5]           0           0        0.00 
+          4                         time_to_udf[4]           0           0        0.00 
+          4                         time_to_udf[3]           0           0        0.00 
+          4                        time_to_udf[31]           0           0        0.00 
+          4                        time_to_udf[30]           0           0        0.00 
+          4                         time_to_udf[2]           0           0        0.00 
+          4                        time_to_udf[29]           0           0        0.00 
+          4                        time_to_udf[28]           0           0        0.00 
+          4                        time_to_udf[27]           0           0        0.00 
+          4                        time_to_udf[26]           0           0        0.00 
+          4                        time_to_udf[25]           0           0        0.00 
+          4                        time_to_udf[24]           0           0        0.00 
+          4                        time_to_udf[23]           0           0        0.00 
+          4                        time_to_udf[22]           0           0        0.00 
+          4                        time_to_udf[21]           0           0        0.00 
+          4                        time_to_udf[20]           0           0        0.00 
+          4                         time_to_udf[1]           0           0        0.00 
+          4                        time_to_udf[19]           0           0        0.00 
+          4                        time_to_udf[18]           0           0        0.00 
+          4                        time_to_udf[17]           0           0        0.00 
+          4                        time_to_udf[16]           0           0        0.00 
+          4                        time_to_udf[15]           0           0        0.00 
+          4                        time_to_udf[14]           0           0        0.00 
+          4                        time_to_udf[13]           0           0        0.00 
+          4                        time_to_udf[12]           0           0        0.00 
+          4                        time_to_udf[11]           0           0        0.00 
+          4                        time_to_udf[10]           0           0        0.00 
+          4                         time_to_udf[0]           0           0        0.00 
+          4                         time_to_ovf[9]           0           0        0.00 
+          4                         time_to_ovf[8]           0           0        0.00 
+          4                         time_to_ovf[7]           0           0        0.00 
+          4                         time_to_ovf[6]           0           0        0.00 
+          4                         time_to_ovf[5]           0           0        0.00 
+          4                         time_to_ovf[4]           0           0        0.00 
+          4                         time_to_ovf[3]           0           0        0.00 
+          4                        time_to_ovf[31]           0           0        0.00 
+          4                        time_to_ovf[30]           0           0        0.00 
+          4                         time_to_ovf[2]           0           0        0.00 
+          4                        time_to_ovf[29]           0           0        0.00 
+          4                        time_to_ovf[28]           0           0        0.00 
+          4                        time_to_ovf[27]           0           0        0.00 
+          4                        time_to_ovf[26]           0           0        0.00 
+          4                        time_to_ovf[25]           0           0        0.00 
+          4                        time_to_ovf[24]           0           0        0.00 
+          4                        time_to_ovf[23]           0           0        0.00 
+          4                        time_to_ovf[22]           0           0        0.00 
+          4                        time_to_ovf[21]           0           0        0.00 
+          4                        time_to_ovf[20]           0           0        0.00 
+          4                         time_to_ovf[1]           0           0        0.00 
+          4                        time_to_ovf[19]           0           0        0.00 
+          4                        time_to_ovf[18]           0           0        0.00 
+          4                        time_to_ovf[17]           0           0        0.00 
+          4                        time_to_ovf[16]           0           0        0.00 
+          4                        time_to_ovf[15]           0           0        0.00 
+          4                        time_to_ovf[14]           0           0        0.00 
+          4                        time_to_ovf[13]           0           0        0.00 
+          4                        time_to_ovf[12]           0           0        0.00 
+          4                        time_to_ovf[11]           0           0        0.00 
+          4                        time_to_ovf[10]           0           0        0.00 
+          4                         time_to_ovf[0]           0           0        0.00 
+          4                          run_time_2[9]           0           0        0.00 
+          4                          run_time_2[8]           0           0        0.00 
+          4                          run_time_2[7]           0           0        0.00 
+          4                          run_time_2[6]           0           0        0.00 
+          4                          run_time_2[5]           0           0        0.00 
+          4                          run_time_2[4]           0           0        0.00 
+          4                          run_time_2[3]           0           0        0.00 
+          4                         run_time_2[31]           0           0        0.00 
+          4                         run_time_2[30]           0           0        0.00 
+          4                          run_time_2[2]           0           0        0.00 
+          4                         run_time_2[29]           0           0        0.00 
+          4                         run_time_2[28]           0           0        0.00 
+          4                         run_time_2[27]           0           0        0.00 
+          4                         run_time_2[26]           0           0        0.00 
+          4                         run_time_2[25]           0           0        0.00 
+          4                         run_time_2[24]           0           0        0.00 
+          4                         run_time_2[23]           0           0        0.00 
+          4                         run_time_2[22]           0           0        0.00 
+          4                         run_time_2[21]           0           0        0.00 
+          4                         run_time_2[20]           0           0        0.00 
+          4                          run_time_2[1]           0           0        0.00 
+          4                         run_time_2[19]           0           0        0.00 
+          4                         run_time_2[18]           0           0        0.00 
+          4                         run_time_2[17]           0           0        0.00 
+          4                         run_time_2[16]           0           0        0.00 
+          4                         run_time_2[15]           0           0        0.00 
+          4                         run_time_2[14]           0           0        0.00 
+          4                         run_time_2[13]           0           0        0.00 
+          4                         run_time_2[12]           0           0        0.00 
+          4                         run_time_2[11]           0           0        0.00 
+          4                         run_time_2[10]           0           0        0.00 
+          4                          run_time_2[0]           0           0        0.00 
+          4                          run_time_1[9]           0           0        0.00 
+          4                          run_time_1[8]           0           0        0.00 
+          4                          run_time_1[7]           0           0        0.00 
+          4                          run_time_1[6]           0           0        0.00 
+          4                          run_time_1[5]           0           0        0.00 
+          4                          run_time_1[4]           0           0        0.00 
+          4                          run_time_1[3]           0           0        0.00 
+          4                         run_time_1[31]           0           0        0.00 
+          4                         run_time_1[30]           0           0        0.00 
+          4                          run_time_1[2]           0           0        0.00 
+          4                         run_time_1[29]           0           0        0.00 
+          4                         run_time_1[28]           0           0        0.00 
+          4                         run_time_1[27]           0           0        0.00 
+          4                         run_time_1[26]           0           0        0.00 
+          4                         run_time_1[25]           0           0        0.00 
+          4                         run_time_1[24]           0           0        0.00 
+          4                         run_time_1[23]           0           0        0.00 
+          4                         run_time_1[22]           0           0        0.00 
+          4                         run_time_1[21]           0           0        0.00 
+          4                         run_time_1[20]           0           0        0.00 
+          4                          run_time_1[1]           0           0        0.00 
+          4                         run_time_1[19]           0           0        0.00 
+          4                         run_time_1[18]           0           0        0.00 
+          4                         run_time_1[17]           0           0        0.00 
+          4                         run_time_1[16]           0           0        0.00 
+          4                         run_time_1[15]           0           0        0.00 
+          4                         run_time_1[14]           0           0        0.00 
+          4                         run_time_1[13]           0           0        0.00 
+          4                         run_time_1[12]           0           0        0.00 
+          4                         run_time_1[11]           0           0        0.00 
+          4                         run_time_1[10]           0           0        0.00 
+          4                          run_time_1[0]           0           0        0.00 
+          4                          pause_time[9]           0           0        0.00 
+          4                          pause_time[8]           0           0        0.00 
+          4                          pause_time[7]           0           0        0.00 
+          4                          pause_time[6]           0           0        0.00 
+          4                          pause_time[5]           0           0        0.00 
+          4                          pause_time[4]           0           0        0.00 
+          4                          pause_time[3]           0           0        0.00 
+          4                         pause_time[31]           0           0        0.00 
+          4                         pause_time[30]           0           0        0.00 
+          4                          pause_time[2]           0           0        0.00 
+          4                         pause_time[29]           0           0        0.00 
+          4                         pause_time[28]           0           0        0.00 
+          4                         pause_time[27]           0           0        0.00 
+          4                         pause_time[26]           0           0        0.00 
+          4                         pause_time[25]           0           0        0.00 
+          4                         pause_time[24]           0           0        0.00 
+          4                         pause_time[23]           0           0        0.00 
+          4                         pause_time[22]           0           0        0.00 
+          4                         pause_time[21]           0           0        0.00 
+          4                         pause_time[20]           0           0        0.00 
+          4                          pause_time[1]           0           0        0.00 
+          4                         pause_time[19]           0           0        0.00 
+          4                         pause_time[18]           0           0        0.00 
+          4                         pause_time[17]           0           0        0.00 
+          4                         pause_time[16]           0           0        0.00 
+          4                         pause_time[15]           0           0        0.00 
+          4                         pause_time[14]           0           0        0.00 
+          4                         pause_time[13]           0           0        0.00 
+          4                         pause_time[12]           0           0        0.00 
+          4                         pause_time[11]           0           0        0.00 
+          4                         pause_time[10]           0           0        0.00 
+          4                          pause_time[0]           0           0        0.00 
+         58                                addr[7]           2           2      100.00 
+         58                                addr[6]           2           2      100.00 
+         58                                addr[5]           2           2      100.00 
+         58                                addr[4]           2           2      100.00 
+         58                                addr[3]           2           2      100.00 
+         58                                addr[2]           2           2      100.00 
+         58                                addr[1]           2           2      100.00 
+         58                                addr[0]           2           2      100.00 
+         59                                   werr           1           1      100.00 
+         59                                   rerr           1           1      100.00 
+
+Total Node Count     =        275 
+Toggled Node Count   =         30 
+Untoggled Node Count =        245 
+
+Toggle Coverage      =       11.8% (65 of 550 bins)
+
+
+Total Coverage By File (code coverage only, filtered view): 64.9%
+

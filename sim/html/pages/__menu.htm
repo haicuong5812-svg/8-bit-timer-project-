@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <link type="text/css" rel="StyleSheet" href="../css/mtitree.css"/>
+  <link type="text/css" rel="StyleSheet" href="../css/ucdb2html.css"/>
+  <link type="text/css" rel="StyleSheet" href="../css/ucdb2html_newlook.css"/>
+  <script type="text/javascript" src="../scripts/mtitree.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.color.js"></script>
+  <script type="text/javascript">
+  <!--
+	var fristTimeToLoad = 0;
+  function openAll() {
+    if (document.getElementById('pane1').style.display != 'none') t.openAll();
+    if (document.getElementById('pane2').style.display != 'none') d.openAll();
+    if (document.getElementById('pane3').style.display != 'none') u.openAll();
+  }
+  function closeAll() {
+    if (document.getElementById('pane1').style.display != 'none') t.closeAll();
+    if (document.getElementById('pane2').style.display != 'none') d.closeAll();
+    if (document.getElementById('pane3').style.display != 'none') u.closeAll();
+  }
+  function disableAll() {
+    document.getElementById('pane1').style.display='none';
+    document.getElementById('pane2').style.display='none';
+    document.getElementById('pane3').style.display='none';
+  }
+  function buttonsOff() {
+    document.getElementById('button1').className='button_off1';
+    document.getElementById('button2').className='button_off1';
+    document.getElementById('button3').className='button_off1';
+    
+    $('#button1').animate({ backgroundColor: '#696969', color: "a9a9a9" }, 200);
+    $('#button2').animate({ backgroundColor: '#696969', color: "a9a9a9" }, 200);
+    $('#button3').animate({ backgroundColor: '#696969', color: "a9a9a9" }, 200);
+  }
+  function drawTo(c) {
+    switch (c) {
+      case 1: t.drawTreeTo(document.getElementById('pane1')); break;
+      case 2: d.drawTreeTo(document.getElementById('pane2')); break;
+      case 3: u.drawTreeTo(document.getElementById('pane3')); break;
+    }
+  }
+  function select(c) {
+    disableAll(); document.getElementById('pane'   + c).style.display='';
+    $('#pane' + c).hide();
+    $('#pane' + c).show(500);
+    buttonsOff(); document.getElementById('button' + c).className='button_on1';
+    $('#button' + c).animate({ backgroundColor: "blue", color: "white" }, 200);    setTimeout('drawTo(' + c + ')', 500);
+	 openpage(c);
+  }
+	  function openpage (c) {
+		var page;
+		if (c == 1) {
+			var i = 1;
+			while(t.aNodes[i].url == '')
+				i=i+1;
+			page = t.aNodes[i].url;
+		}
+		else if (c == 2) {
+			var i = 1;
+			while(d.aNodes[i].url == '')
+				i=i+1;
+			page = d.aNodes[i].url;
+		}
+		else {
+			var i = 1;
+			while(u.aNodes[i].url == '')
+				i=i+1;
+			page = u.aNodes[i].url;
+		}
+		if (fristTimeToLoad == 1) //frist time to load the page
+			window.open(page,'text');
+		if(fristTimeToLoad == 0)
+			fristTimeToLoad =1;
+	  }
+  // -->
+  </script>
+</head>
+<body>
+  <table class="buttons" cellspacing="2" cellpadding="2" width="100%"><tr>
+    <td width="75" class="button_off1" id="button1"
+        title="Select testplan tree" onclick="select('1')">Testplan</td>
+    <td width="75" class="button_off1" id="button2"
+        title="Select design tree" onclick="select('2')">Design</td>
+    <td width="75" class="button_off1" id="button3"
+        title="Select design unit list" onclick="select('3')">DesUnits</td>
+    <td class="invisible">&nbsp;</td><!-- spacer -->
+  </tr></table><hr/>
+  <div class="pane" id="pane1" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    t = new Tree('t');
+    
+    if (t.length() > 0) {
+      document.getElementById('pane1').style.display='';
+      document.getElementById('button1').className='button_on1';
+      document.write(t);
+    }
+  //-->
+  </script>
+  </div>
+  <div class="pane" id="pane2" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    d = new Tree('d');
+    d.add(1, 0, 'tb_cnt_tmr', 'z000037.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(2, 1, 'apb_write', 'z000365.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(3, 1, 'apb_read', 'z000366.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(4, 1, 'dut', 'z000367.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(5, 4, 'CU', 'z000422.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(6, 5, 'mu', 'z000466.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(7, 5, 'Reg_TDR', 'z000472.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(8, 5, 'Reg_TCR', 'z000496.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(9, 5, 'Reg_TSR', 'z000520.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(10, 5, 'read_reg', 'z000544.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(11, 5, 'pready_signal', 'z000563.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(12, 5, 'pslerr_signal', 'z000568.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(13, 4, 'Clock_Div', 'z000573.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(14, 13, 'ff0', 'z000585.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(15, 13, 'ff1', 'z000588.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(16, 13, 'ff2', 'z000591.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(17, 13, 'ff3', 'z000594.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(18, 4, 'COUNTER', 'z000597.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(19, 18, 'ff_CNT', 'z000640.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(20, 18, 'SynCLK', 'z000651.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(21, 20, 'ff0', 'z000655.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(22, 4, 'ACC', 'z000658.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(23, 22, 'ff_CNT', 'z000679.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(24, 1, 'apb_write_slverr', 'z000690.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(25, 1, 'apb_read_slverr', 'z000691.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(26, 1, 'thread_1 (no coverage)', null, '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+d.add(27, 1, 'thread_2 (no coverage)', null, '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+
+    if ((d.length() > 0) && (t.length() < 1)) {
+      document.getElementById('pane2').style.display='';
+      document.getElementById('button2').className='button_on1';
+      document.write(d);
+    }
+  //-->
+  </script>
+  </div>
+  <div class="pane" id="pane3" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    u = new Tree('u');
+    u.add(1, 0, 'work.SFR', 'z000023.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(2, 0, 'work.Syn_CLK', 'z000024.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(3, 0, 'work.TCNT', 'z000026.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(4, 0, 'work.Generate_clock', 'z000028.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(5, 0, 'work.Psl', 'z000029.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(6, 0, 'work.Pre', 'z000030.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(7, 0, 'work.Prd', 'z000031.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(8, 0, 'work.Mux', 'z000033.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(9, 0, 'work.RW_Controller', 'z000034.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(10, 0, 'work.IP_TIMER', 'z000035.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(11, 0, 'work.FF8', 'z000025.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(12, 0, 'work.FF1', 'z000027.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(13, 0, 'work.Reg', 'z000032.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(14, 0, 'work.tb_cnt_tmr', 'z000036.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(15, 14, 'apb_write', 'z001060.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(16, 14, 'apb_read', 'z001061.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(17, 14, 'apb_write_slverr', 'z001062.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(18, 14, 'apb_read_slverr', 'z001063.htm', '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(19, 14, 'thread_1 (no coverage)', null, '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+u.add(20, 14, 'thread_2 (no coverage)', null, '', '../icons/square-ltBlue.png', 'Verilog', false, 'node','nodeSel');
+
+    // document.write(u);
+  //-->
+  if (document.getElementById('button1').className == 'button_on1') select("1");
+  else if (document.getElementById('button2').className == 'button_on1') select("2");
+  else select("3");
+  </script>
+  <h3>Loading...</h3>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,23 @@
+REGRESSION_LIST = \
+tsr_test \
+tdr_test \
+tcr_test \
+null_address \
+mixed_address \
+countup_forkjoin_pclk2 \
+countup_forkjoin_pclk4 \
+countup_forkjoin_pclk8 \
+countup_forkjoin_pclk16 \
+countdw_forkjoin_pclk2 \
+countdw_forkjoin_pclk4 \
+countdw_forkjoin_pclk8 \
+countdw_forkjoin_pclk16 \
+countup_pause_countup_pclk2 \
+countdw_pause_countdw_pclk2 \
+countup_reset_countdw_pclk2 \
+countdw_reset_countup_pclk2 \
+countup_reset_load_countdw_pclk2 \
+countdw_reset_load_countdw_pclk2 \
+fake_underflow \
+fake_overflow \
+load_and_run_oneshot

@@ -1,0 +1,57 @@
+# vsim -do {log -r /*;run -all;} -l log/countdw_reset_load_countdw_pclk2.log -voptargs=+acc -c -novopt tb_cnt_tmr 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:/semicon/timer_8bit/sim/work.tb_cnt_tmr
+# Loading work.tb_cnt_tmr
+# Refreshing D:/semicon/timer_8bit/sim/work.IP_TIMER
+# Loading work.IP_TIMER
+# Refreshing D:/semicon/timer_8bit/sim/work.RW_Controller
+# Loading work.RW_Controller
+# Refreshing D:/semicon/timer_8bit/sim/work.Mux
+# Loading work.Mux
+# Refreshing D:/semicon/timer_8bit/sim/work.Reg
+# Loading work.Reg
+# Refreshing D:/semicon/timer_8bit/sim/work.Prd
+# Loading work.Prd
+# Refreshing D:/semicon/timer_8bit/sim/work.Pre
+# Loading work.Pre
+# Refreshing D:/semicon/timer_8bit/sim/work.Psl
+# Loading work.Psl
+# Refreshing D:/semicon/timer_8bit/sim/work.Generate_clock
+# Loading work.Generate_clock
+# Refreshing D:/semicon/timer_8bit/sim/work.FF1
+# Loading work.FF1
+# Refreshing D:/semicon/timer_8bit/sim/work.TCNT
+# Loading work.TCNT
+# Refreshing D:/semicon/timer_8bit/sim/work.FF8
+# Loading work.FF8
+# Refreshing D:/semicon/timer_8bit/sim/work.Syn_CLK
+# Loading work.Syn_CLK
+# Refreshing D:/semicon/timer_8bit/sim/work.SFR
+# Loading work.SFR
+# log -r /* 
+# run -all 
+# [25000] TEST: Writing 0x24 (Value A) to TDR
+# [55000] TEST: Loading TCNT from TDR
+# [85000] TEST: Starting count-down PCLK/2
+# [1115000] TEST: Triggering RESET (PRESETn=0)
+# [1155000] TEST: Releasing RESET (PRESETn=1)
+# [1335000] [RESET CHECK] PASS: TDR, TCR, TSR are reset to 0
+# [1335000] TEST: Writing 0x81 (NEW Value B) to TDR
+# [1365000] TEST: Loading TCNT from TDR
+# [1395000] TEST: Starting count-down PCLK/2
+# [9445000] [POST-RESET CHECK] PASS: Underflow flag is set after reset (TSR=0x2)
+# === TEST DONE: countdw_reset_load_countdw_pclk2 ===
+# ** Note: $finish    : ../test_case/testcase.v(95)
+#    Time: 9545 ns  Iteration: 0  Instance: /tb_cnt_tmr
+#Simulation: @@@@@@@@@@@@
+#Simulation: @@@ PASS @@@
+#Simulation: @@@@@@@@@@@@

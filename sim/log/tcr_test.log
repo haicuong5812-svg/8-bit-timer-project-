@@ -1,0 +1,68 @@
+# vsim -do {log -r /*;run -all;} -l log/tcr_test.log -voptargs=+acc -c -novopt tb_cnt_tmr 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:/semicon/timer_8bit/sim/work.tb_cnt_tmr
+# Loading work.tb_cnt_tmr
+# Refreshing D:/semicon/timer_8bit/sim/work.IP_TIMER
+# Loading work.IP_TIMER
+# Refreshing D:/semicon/timer_8bit/sim/work.RW_Controller
+# Loading work.RW_Controller
+# Refreshing D:/semicon/timer_8bit/sim/work.Mux
+# Loading work.Mux
+# Refreshing D:/semicon/timer_8bit/sim/work.Reg
+# Loading work.Reg
+# Refreshing D:/semicon/timer_8bit/sim/work.Prd
+# Loading work.Prd
+# Refreshing D:/semicon/timer_8bit/sim/work.Pre
+# Loading work.Pre
+# Refreshing D:/semicon/timer_8bit/sim/work.Psl
+# Loading work.Psl
+# Refreshing D:/semicon/timer_8bit/sim/work.Generate_clock
+# Loading work.Generate_clock
+# Refreshing D:/semicon/timer_8bit/sim/work.FF1
+# Loading work.FF1
+# Refreshing D:/semicon/timer_8bit/sim/work.TCNT
+# Loading work.TCNT
+# Refreshing D:/semicon/timer_8bit/sim/work.FF8
+# Loading work.FF8
+# Refreshing D:/semicon/timer_8bit/sim/work.Syn_CLK
+# Loading work.Syn_CLK
+# Refreshing D:/semicon/timer_8bit/sim/work.SFR
+# Loading work.SFR
+# log -r /* 
+# run -all 
+# [TCR default] OK: 0x0
+# [TCR RW #0] OK: wrote 0x72 -> masked 0x32, read 0x32 -> masked 0x32
+# [TCR RW #1] OK: wrote 0xb2 -> masked 0xb2, read 0xb2 -> masked 0xb2
+# [TCR RW #2] OK: wrote 0x10 -> masked 0x10, read 0x10 -> masked 0x10
+# [TCR RW #3] OK: wrote 0x30 -> masked 0x30, read 0x30 -> masked 0x30
+# [TCR RW #4] OK: wrote 0xb5 -> masked 0xb1, read 0xb1 -> masked 0xb1
+# [TCR RW #5] OK: wrote 0xb6 -> masked 0xb2, read 0xb2 -> masked 0xb2
+# [TCR RW #6] OK: wrote 0x14 -> masked 0x10, read 0x10 -> masked 0x10
+# [TCR RW #7] OK: wrote 0xdf -> masked 0x93, read 0x93 -> masked 0x93
+# [TCR RW #8] OK: wrote 0xbb -> masked 0xb3, read 0xb3 -> masked 0xb3
+# [TCR RW #9] OK: wrote 0xeb -> masked 0xa3, read 0xa3 -> masked 0xa3
+# [TCR RW #10] OK: wrote 0x41 -> masked 0x1, read 0x1 -> masked 0x1
+# [TCR RW #11] OK: wrote 0x40 -> masked 0x0, read 0x0 -> masked 0x0
+# [TCR RW #12] OK: wrote 0x8a -> masked 0x82, read 0x82 -> masked 0x82
+# [TCR RW #13] OK: wrote 0x3 -> masked 0x3, read 0x3 -> masked 0x3
+# [TCR RW #14] OK: wrote 0xfc -> masked 0xb0, read 0xb0 -> masked 0xb0
+# [TCR RW #15] OK: wrote 0x5d -> masked 0x11, read 0x11 -> masked 0x11
+# [TCR RW #16] OK: wrote 0x1d -> masked 0x11, read 0x11 -> masked 0x11
+# [TCR RW #17] OK: wrote 0x6a -> masked 0x22, read 0x22 -> masked 0x22
+# [TCR RW #18] OK: wrote 0x16 -> masked 0x12, read 0x12 -> masked 0x12
+# [TCR RW #19] OK: wrote 0x3f -> masked 0x33, read 0x33 -> masked 0x33
+# === TEST PASSED: TCR read/write with mask 10110011 repeated 20 times ===
+# ** Note: $finish    : ../test_case/testcase.v(45)
+#    Time: 1255 ns  Iteration: 1  Instance: /tb_cnt_tmr
+#Simulation: @@@@@@@@@@@@
+#Simulation: @@@ PASS @@@
+#Simulation: @@@@@@@@@@@@

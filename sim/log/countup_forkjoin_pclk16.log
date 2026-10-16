@@ -1,0 +1,52 @@
+# vsim -do {log -r /*;run -all;} -l log/countup_forkjoin_pclk16.log -voptargs=+acc -c -novopt tb_cnt_tmr 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:/semicon/timer_8bit/sim/work.tb_cnt_tmr
+# Loading work.tb_cnt_tmr
+# Refreshing D:/semicon/timer_8bit/sim/work.IP_TIMER
+# Loading work.IP_TIMER
+# Refreshing D:/semicon/timer_8bit/sim/work.RW_Controller
+# Loading work.RW_Controller
+# Refreshing D:/semicon/timer_8bit/sim/work.Mux
+# Loading work.Mux
+# Refreshing D:/semicon/timer_8bit/sim/work.Reg
+# Loading work.Reg
+# Refreshing D:/semicon/timer_8bit/sim/work.Prd
+# Loading work.Prd
+# Refreshing D:/semicon/timer_8bit/sim/work.Pre
+# Loading work.Pre
+# Refreshing D:/semicon/timer_8bit/sim/work.Psl
+# Loading work.Psl
+# Refreshing D:/semicon/timer_8bit/sim/work.Generate_clock
+# Loading work.Generate_clock
+# Refreshing D:/semicon/timer_8bit/sim/work.FF1
+# Loading work.FF1
+# Refreshing D:/semicon/timer_8bit/sim/work.TCNT
+# Loading work.TCNT
+# Refreshing D:/semicon/timer_8bit/sim/work.FF8
+# Loading work.FF8
+# Refreshing D:/semicon/timer_8bit/sim/work.Syn_CLK
+# Loading work.Syn_CLK
+# Refreshing D:/semicon/timer_8bit/sim/work.SFR
+# Loading work.SFR
+# log -r /* 
+# run -all 
+# [25000] TEST: Writing 0x24 to TDR (addr=0x0)
+# [55000] TEST: Loading TCNT from TDR (writing 0x80 to TCR)
+# [85000] TEST: Starting count-up PCLK/16 (writing 0x13 to TCR)
+# [30135000] [THREAD 2] PASS: Overflow flag is not set yet (TSR=0x0)
+# [40135000] [THREAD 1] PASS: Overflow flag is set (TSR=0x1)
+# === TEST DONE: countup_forkjoin_pclk16 ===
+# ** Note: $finish    : ../test_case/testcase.v(60)
+#    Time: 40235 ns  Iteration: 0  Instance: /tb_cnt_tmr
+#Simulation: @@@@@@@@@@@@
+#Simulation: @@@ PASS @@@
+#Simulation: @@@@@@@@@@@@

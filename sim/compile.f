@@ -1,0 +1,14 @@
+../rtl/IP_TIMER.v
+../rtl/RW_Controller.v
+../rtl/TCNT.v
+../rtl/SFR.v
+../rtl/Generate_clock.v
+../rtl/Mux.v
+../rtl/Psl.v
+../rtl/Pre.v
+../rtl/Prd.v
+../rtl/Reg.v
+../rtl/FF1.v
+../rtl/FF8.v
+../rtl/Syn_CLK.v
+../tb/tb_cnt_tmr.v

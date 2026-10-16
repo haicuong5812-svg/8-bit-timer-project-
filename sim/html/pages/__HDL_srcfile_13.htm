@@ -1,0 +1,24 @@
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <link rel="StyleSheet" media="screen" href="../css/hdl2html.css"/>
+</head>
+<body id="hdl2html">
+  <tt><a name="1"/><span style="color:red">%s%%s%%s%%s%%s%1%s%%s%</span><span class="keyword">module</span>%s%Syn_CLK(<br/>
+<a name="2"/><span style="color:red">%s%%s%%s%%s%%s%2%s%%s%</span>%t%<span class="keyword">input</span>%s%%s%pclk_i,<br/>
+<a name="3"/><span style="color:red">%s%%s%%s%%s%%s%3%s%%s%</span>%t%<span class="keyword">input</span>%s%%s%rst_i,<br/>
+<a name="4"/><span style="color:red">%s%%s%%s%%s%%s%4%s%%s%</span>%t%<span class="keyword">input</span>%s%%s%clk_i,<br/>
+<a name="5"/><span style="color:red">%s%%s%%s%%s%%s%5%s%%s%</span>%t%<span class="keyword">output</span>%s%clk<br/>
+<a name="6"/><span style="color:red">%s%%s%%s%%s%%s%6%s%%s%</span>);<br/>
+<a name="7"/><span style="color:red">%s%%s%%s%%s%%s%7%s%%s%</span><br/>
+<a name="8"/><span style="color:red">%s%%s%%s%%s%%s%8%s%%s%</span>%t%<span class="keyword">wire</span>%s%not_in;<br/>
+<a name="9"/><span style="color:red">%s%%s%%s%%s%%s%9%s%%s%</span>%t%<span class="keyword">assign</span>%s%%s%clk%s%=%s%clk_i%s%&amp;%s%(!not_in);<br/>
+<a name="10"/><span style="color:red">%s%%s%%s%%s%10%s%%s%</span>%t%FF1%s%ff0%s%(.clk(pclk_i),%s%.rst(rst_i),%s%.q(clk_i),%s%.D(not_in));<br/>
+<a name="11"/><span style="color:red">%s%%s%%s%%s%11%s%%s%</span><span class="keyword">endmodule</span><br/>
+</tt>
+<script type="text/javascript" src="../scripts/buildsrcpage.js"></script>
+  
+</body>
+</html>

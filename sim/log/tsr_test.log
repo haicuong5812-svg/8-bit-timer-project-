@@ -1,0 +1,68 @@
+# vsim -do {log -r /*;run -all;} -l log/tsr_test.log -voptargs=+acc -c -novopt tb_cnt_tmr 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:/semicon/timer_8bit/sim/work.tb_cnt_tmr
+# Loading work.tb_cnt_tmr
+# Refreshing D:/semicon/timer_8bit/sim/work.IP_TIMER
+# Loading work.IP_TIMER
+# Refreshing D:/semicon/timer_8bit/sim/work.RW_Controller
+# Loading work.RW_Controller
+# Refreshing D:/semicon/timer_8bit/sim/work.Mux
+# Loading work.Mux
+# Refreshing D:/semicon/timer_8bit/sim/work.Reg
+# Loading work.Reg
+# Refreshing D:/semicon/timer_8bit/sim/work.Prd
+# Loading work.Prd
+# Refreshing D:/semicon/timer_8bit/sim/work.Pre
+# Loading work.Pre
+# Refreshing D:/semicon/timer_8bit/sim/work.Psl
+# Loading work.Psl
+# Refreshing D:/semicon/timer_8bit/sim/work.Generate_clock
+# Loading work.Generate_clock
+# Refreshing D:/semicon/timer_8bit/sim/work.FF1
+# Loading work.FF1
+# Refreshing D:/semicon/timer_8bit/sim/work.TCNT
+# Loading work.TCNT
+# Refreshing D:/semicon/timer_8bit/sim/work.FF8
+# Loading work.FF8
+# Refreshing D:/semicon/timer_8bit/sim/work.Syn_CLK
+# Loading work.Syn_CLK
+# Refreshing D:/semicon/timer_8bit/sim/work.SFR
+# Loading work.SFR
+# log -r /* 
+# run -all 
+# [TSR default] OK: 0x0
+# [TSR RW #0] OK: wrote 0x72, read back 0x00
+# [TSR RW #1] OK: wrote 0xb2, read back 0x00
+# [TSR RW #2] OK: wrote 0x10, read back 0x00
+# [TSR RW #3] OK: wrote 0x30, read back 0x00
+# [TSR RW #4] OK: wrote 0xb5, read back 0x00
+# [TSR RW #5] OK: wrote 0xb6, read back 0x00
+# [TSR RW #6] OK: wrote 0x14, read back 0x00
+# [TSR RW #7] OK: wrote 0xdf, read back 0x00
+# [TSR RW #8] OK: wrote 0xbb, read back 0x00
+# [TSR RW #9] OK: wrote 0xeb, read back 0x00
+# [TSR RW #10] OK: wrote 0x41, read back 0x00
+# [TSR RW #11] OK: wrote 0x40, read back 0x00
+# [TSR RW #12] OK: wrote 0x8a, read back 0x00
+# [TSR RW #13] OK: wrote 0x3, read back 0x00
+# [TSR RW #14] OK: wrote 0xfc, read back 0x00
+# [TSR RW #15] OK: wrote 0x5d, read back 0x00
+# [TSR RW #16] OK: wrote 0x1d, read back 0x00
+# [TSR RW #17] OK: wrote 0x6a, read back 0x00
+# [TSR RW #18] OK: wrote 0x16, read back 0x00
+# [TSR RW #19] OK: wrote 0x3f, read back 0x00
+# === TEST PASSED: TSR default=0, write-random/read=0 repeated 20 times ===
+# ** Note: $finish    : ../test_case/testcase.v(41)
+#    Time: 1255 ns  Iteration: 1  Instance: /tb_cnt_tmr
+#Simulation: @@@@@@@@@@@@
+#Simulation: @@@ PASS @@@
+#Simulation: @@@@@@@@@@@@

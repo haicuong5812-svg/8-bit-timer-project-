@@ -1,0 +1,15 @@
+../rtl/FF1.v
+../rtl/FF8.v
+../rtl/Generate_clock.v
+../rtl/IP_TIMER.v
+../rtl/Mux.v
+../rtl/Prd.v
+../rtl/Pre.v
+../rtl/Psl.v
+../rtl/RW_Controller.v
+../rtl/Reg.v
+../rtl/SFR.v
+../rtl/Syn_CLK.v
+../rtl/TCNT.v
+../tb/tb_cnt_tmr.v
+../test_case/testcase.v

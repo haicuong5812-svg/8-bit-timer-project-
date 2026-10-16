@@ -1,0 +1,67 @@
+# vsim -do {log -r /*;run -all;} -l log/mixed_address.log -voptargs=+acc -c -novopt tb_cnt_tmr 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:/semicon/timer_8bit/sim/work.tb_cnt_tmr
+# Loading work.tb_cnt_tmr
+# Refreshing D:/semicon/timer_8bit/sim/work.IP_TIMER
+# Loading work.IP_TIMER
+# Refreshing D:/semicon/timer_8bit/sim/work.RW_Controller
+# Loading work.RW_Controller
+# Refreshing D:/semicon/timer_8bit/sim/work.Mux
+# Loading work.Mux
+# Refreshing D:/semicon/timer_8bit/sim/work.Reg
+# Loading work.Reg
+# Refreshing D:/semicon/timer_8bit/sim/work.Prd
+# Loading work.Prd
+# Refreshing D:/semicon/timer_8bit/sim/work.Pre
+# Loading work.Pre
+# Refreshing D:/semicon/timer_8bit/sim/work.Psl
+# Loading work.Psl
+# Refreshing D:/semicon/timer_8bit/sim/work.Generate_clock
+# Loading work.Generate_clock
+# Refreshing D:/semicon/timer_8bit/sim/work.FF1
+# Loading work.FF1
+# Refreshing D:/semicon/timer_8bit/sim/work.TCNT
+# Loading work.TCNT
+# Refreshing D:/semicon/timer_8bit/sim/work.FF8
+# Loading work.FF8
+# Refreshing D:/semicon/timer_8bit/sim/work.Syn_CLK
+# Loading work.Syn_CLK
+# Refreshing D:/semicon/timer_8bit/sim/work.SFR
+# Loading work.SFR
+# log -r /* 
+# run -all 
+# NULL-ADDRESS addr=0x24 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x9 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xd PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x65 PSLVERR(w=1,r=1)
+# [TCR] OK: addr=0x1 wrote 0xd(mask->0x1) read 0x1(mask->0x1)
+# NULL-ADDRESS addr=0x76 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xed PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xf9 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xc5 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xe5 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x12 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xf2 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xe8 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x5c PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x2d PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x63 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x80 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xaa PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0x96 PSLVERR(w=1,r=1)
+# NULL-ADDRESS addr=0xd PSLVERR(w=1,r=1)
+# === TEST DONE: mixed_address sequence repeated 20 times ===
+# ** Note: $finish    : ../test_case/testcase.v(124)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_cnt_tmr
+#Simulation: @@@@@@@@@@@@
+#Simulation: @@@ PASS @@@
+#Simulation: @@@@@@@@@@@@
